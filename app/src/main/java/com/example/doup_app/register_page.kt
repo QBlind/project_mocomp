@@ -7,8 +7,8 @@ import android.widget.EditText
 import android.widget.RadioButton
 
 class register_page : AppCompatActivity() {
-    lateinit var button : Button
-    lateinit var textR : EditText
+    lateinit var btn : Button
+    lateinit var tex : EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register_page)
